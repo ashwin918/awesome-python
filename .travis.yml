@@ -3,7 +3,7 @@ language: python
 python:
   - "3.6"
 
-script:
+script:ashwin
   - python sort.py
   - cp README.md docs/index.md
   - mkdocs build
